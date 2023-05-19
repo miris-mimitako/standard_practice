@@ -23,3 +23,21 @@ CREATE TABLE your_table_name (
 );
 
 ```
+
+## modify charset
+
+### Database
+
+```query
+
+ALTER DATABASE database_name CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+```
+
+### Table
+
+```query
+
+ALTER TABLE table_name CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+```
