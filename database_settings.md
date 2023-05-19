@@ -1,5 +1,6 @@
 # Database settings
 
+This document covers using MariaDB for settings.
 ## Create database
 
 You must define charset in create database sentence.
